@@ -34,6 +34,7 @@ class App extends React.Component{
     const filteredRobots = this.state.robots.filter(item =>(item.name.toLowerCase().includes(this.state.searchInput.toLowerCase())));
       console.log("filteredRobots:", filteredRobots);
 
+
     return (
       <div className="">
         <h1 style={{textAlign:'center'}}>Robofriends</h1>
